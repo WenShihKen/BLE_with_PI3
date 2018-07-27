@@ -26,6 +26,8 @@
 
 ## 藍芽的一些設定(HM-10)
 
-    http://www.pondoudou.com/?p=2004
+http://www.pondoudou.com/?p=2004
     
-    [關於HM-10裝置的詳細內容](http://www.martyncurrey.com/hm-10-bluetooth-4ble-modules/)
+[關於HM-10裝置的詳細內容](http://www.martyncurrey.com/hm-10-bluetooth-4ble-modules/)
+
+http://blog.blecentral.com/2015/05/05/hm-10-peripheral/
