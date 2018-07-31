@@ -23,6 +23,8 @@
     }
 
     等待raspberry pi連上網路後就可以使用ssh來進行控制
+    
+    需使用的python3套件: sqlalchemy, pymysql
 
 ## 藍芽的一些設定(HM-10)
 
