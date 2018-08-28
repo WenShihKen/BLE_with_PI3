@@ -56,9 +56,12 @@ class ConnectionHandlerThread (threading.Thread):
         connection = connections[self.connection_index]
         connection.setDelegate(NotificationDelegate(self.connection_index))
         while True:
-            connection.waitForNotifications(10)
-            print(receive_data, connection.addr)
-            Send_Info(receive_data, address.index(connection.addr))
+            try:
+                connection.waitForNotifications(10)
+                print(receive_data, connection.addr)
+                Send_Info(receive_data, address.index(connection.addr))
+            except Exception:
+                pass
                 
 
 while True:
